@@ -3,7 +3,7 @@ zerops:
     build:
       buildCommands:
         - echo "nothing to do"
-      deployFiles: ./env-test.txt
+      deployFiles: ./
     run:
       prepareCommands:
         - docker image pull crccheck/hello-world
